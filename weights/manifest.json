@@ -1,0 +1,54 @@
+{
+  "checkpoints": {
+    "GWD": {
+      "filename": "gwd_seed_69.pth",
+      "sha256": "a7897881fd767f84e5e77bf424855b9c0c01cab8303096f3bdc1781810cfebd6",
+      "dataset": "GWD",
+      "seed": 69,
+      "selected_epoch": 7,
+      "n_features": 12,
+      "dtype": "float64",
+      "historical_checkpoint_metrics": {
+        "f1": 0.943014559631713,
+        "precision": 0.9429773512282004,
+        "recall": 0.9430617717609115,
+        "roc_auc": 0.7897327477941302
+      },
+      "model_config": {
+        "n_window": 10,
+        "n_rules": 8,
+        "rule_tau": 1,
+        "gwtcn_blocks": null,
+        "mask_soft": 0.1,
+        "recon_risk_ratio": 0.3,
+        "transformer_ff_dim": 64,
+        "transformer_heads": null
+      }
+    },
+    "SWaT": {
+      "filename": "swat_seed_69.pth",
+      "sha256": "757a5102f311963742371d6f53e23bf0c2e25397353302670980906a4318334c",
+      "dataset": "SWaT",
+      "seed": 69,
+      "selected_epoch": 7,
+      "n_features": 1,
+      "dtype": "float64",
+      "historical_checkpoint_metrics": {
+        "f1": 0.8143333893087685,
+        "precision": 0.9977477252759522,
+        "recall": 0.6878881880762704,
+        "roc_auc": 0.8368395986973062
+      },
+      "model_config": {
+        "n_window": 10,
+        "n_rules": null,
+        "rule_tau": 0.7,
+        "gwtcn_blocks": null,
+        "mask_soft": 0.1,
+        "recon_risk_ratio": 0.7,
+        "transformer_ff_dim": 64,
+        "transformer_heads": null
+      }
+    }
+  }
+}
